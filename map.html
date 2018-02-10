@@ -8,7 +8,7 @@
       /* Always set the map height explicitly to define the size of the div
        * element that contains the map. */
       #map {
-        height: 100%;
+        height: calc(100% - 61px);
       }
       /* Optional: Makes the sample page fill the window. */
       html, body {
@@ -27,7 +27,7 @@
       }
 
       #infowindow-content {
-        display: none;
+        display: grid;
       }
 
       #map #infowindow-content {
@@ -87,8 +87,14 @@
         width: 345px;
       }
     </style>
+    <title>Shelter Source</title>
+    <link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="css/Homlessness.css">
   </head>
   <body>
+    <h1 class = "header">shelter source</h1>
     <input id="pac-input" class="controls" type="text" placeholder="Search Box">
     <div id="map"></div>
     <script>
