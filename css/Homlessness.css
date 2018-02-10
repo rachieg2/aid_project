@@ -1,0 +1,18 @@
+
+body{
+  margin:0;
+  padding:0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "Pontano Sans", sans-serif;
+}
+
+.header {
+  background-color: #FF9210;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  color: white;
+  padding: 10px 0;
+}
