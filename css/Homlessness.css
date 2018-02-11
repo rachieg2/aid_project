@@ -94,5 +94,6 @@ button {
 }
 
 ul {
-  margin-left: 25px;
+  text-align: left;
+  margin-left: 30px;
 }
