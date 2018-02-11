@@ -1,11 +1,19 @@
 body{
-  margin:0 auto;
+  margin:0;
   padding:0;
 
 }
 h1, h2, h3, h4 ,h5 ,h6, p{
   font-family: "Pontano Sans", sans-serif;
+
 }
+.header{
+  background-color: #ff9210;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
 .welcome-wrapper{
   background-color: #ff9210;
   width: 100%;
