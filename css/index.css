@@ -9,15 +9,17 @@ h1, h2, h3, h4 ,h5 ,h6, p{
 }
 .header{
   background-color: #ff9210;
-  width: 100%;
-  margin: 0 auto;
-  padding: 0;
+  
+
+
 }
 
 .welcome-wrapper{
+  background: 100%;
   background-color: #ff9210;
   width: 100%;
   height: 100vh;
+
 }
 
 .brand-title{
@@ -25,7 +27,8 @@ h1, h2, h3, h4 ,h5 ,h6, p{
   color: white;
   text-align: center;
   padding: 130px 25px;
-text-emphasis-style: open;
+ text-emphasis-style: open;
+ margin-top: 0;
 
 }
 
