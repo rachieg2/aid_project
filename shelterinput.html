@@ -13,14 +13,21 @@
 </head>
 
 <body>
-
   <h1 class = "header">shelter source</h1>
-  <h2 class = "instructions">Hi, welcome to Shelter Source! Please enter the items your shelter needs below.</h2>
-  <input type="text" id="items">
 
-  <button onclick="myFunction()">add to list</button>
+  <div class="transbox">
+      <h2 class = "instructions">Hi, welcome to Shelter Source! Please enter the items your shelter needs below.</h2>
+        <input type="text" id="items">
+        <button onclick="myFunction()">add to list</button>
+        <div class="box">
+        <ul id="listOfItems"></ul>
+      </div>
+  </div>
+  <!-- <input type="text" id="items"> -->
 
-  <ul id="listOfItems"></ul>
+  <!-- <button onclick="myFunction()">add to list</button> -->
+
+
 
 
 <script>

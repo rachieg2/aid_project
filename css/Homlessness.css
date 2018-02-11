@@ -2,6 +2,9 @@
 body{
   margin:0;
   padding:0;
+  background-image: url(pexels-photo-461049.jpeg);
+  background-size: cover;
+  text-align: center;
 }
 
 h1, h3, h4, h5, h6, p {
@@ -83,7 +86,7 @@ h2 {font-family: "Pontano Sans", sans-serif;}
 button {
     background-color: #EEE3E0;
     border: none;
-    color: grey;
+    color: gray;
     padding: 5px 10px;
     text-align: center;
     text-decoration: none;
@@ -94,6 +97,42 @@ button {
 }
 
 ul {
-  text-align: left;
-  margin-left: 30px;
+  /* text-align: center; */
+  /* margin-left: 30px; */
+}
+
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  opacity: 0.75;
+  filter: alpha(opacity=60);
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+div.box {
+  margin: 50px;
+  background-color: orange;
+  /* border: 1px solid orange; */
+  opacity: .75;
+  filter: alpha(opacity=60);
+  width: 25%;
+  margin-left: 38.5%;
+}
+
+#listOfItems {
+  text-align: center;
+  margin-right: 10%;
+}
+
+div.box p {
+  text-align: center;
+  font-weight: normal;
+  color: black;
 }
