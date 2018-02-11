@@ -18,6 +18,24 @@
 <body>
   <h1 class = "header">shelter source</h1>
   <h2 class = "instructions">Hi, welcome to Shelter Source! Please enter the items your shelter needs below.</h2>
+  <input type="text" id="items">
+
+  <button onclick="myFunction()">add to list</button>
+
+  <ul id="listOfItems"></ul>
+
+  <script>
+var listData = [];
+function myFunction() {
+    var x = document.getElementById("items").value;
+    listData.push(x);
+    var node = document.createElement("p");
+    var textnode = document.createTextNode(x);
+    node.appendChild(textnode);
+    document.getElementById("listOfItems").appendChild(node);
+}
+</script>
+
   <script src="js/scripts.js"></script>
 </body>
 </html>
